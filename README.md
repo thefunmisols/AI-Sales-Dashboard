@@ -6,7 +6,7 @@ The **AI Sales Dashboard** is an interactive sales analytics application built w
 
 Instead of manually reviewing large spreadsheets or static reports, users can interact with the dashboard, filter relevant business information, visualize sales performance, and receive automatically generated insights to support faster decision-making.
 
-## 🎯 Business Problem
+##  Business Problem
 
 Sales teams and business leaders often have large volumes of transaction data but struggle to quickly answer questions such as:
 
@@ -20,7 +20,7 @@ This project addresses that challenge by transforming raw sales data into an **i
 
 ---
 
-## 💡 Solution
+##  Solution
 
 The AI Sales Dashboard provides stakeholders with a simple interface where they can:
 
@@ -42,9 +42,9 @@ The objective is to make sales information easier to understand and enable stake
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
-### 🌍 Region Analysis
+###  Region Analysis
 
 Users can select a specific region from the sidebar and instantly view sales records associated with that location.
 
@@ -52,7 +52,7 @@ This allows management to understand geographical sales performance and identify
 
 ---
 
-### 📦 Product Analysis
+###  Product Analysis
 
 Users can filter the dataset by product to understand how individual products are performing.
 
@@ -65,7 +65,7 @@ This can help stakeholders identify:
 
 ---
 
-### 📌 Sales Status Analysis
+###  Sales Status Analysis
 
 The dashboard allows users to explore sales transactions based on their current status.
 
@@ -73,7 +73,7 @@ This provides greater visibility into the sales pipeline and helps stakeholders 
 
 ---
 
-## 📈 Interactive Sales Visualization
+##  Interactive Sales Visualization
 
 The dashboard uses **Plotly** to create an interactive bar chart showing:
 
@@ -83,7 +83,7 @@ This makes it easier for stakeholders to visually compare product performance an
 
 ---
 
-## 🤖 AI-Generated Insights
+##  AI-Generated Insights
 
 One of the key features of the project is the **AI Insight section**.
 
@@ -93,7 +93,7 @@ This demonstrates how analytics applications can go beyond displaying numbers an
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Technology                  | Purpose                                  |
 | --------------------------- | ---------------------------------------- |
@@ -106,7 +106,7 @@ This demonstrates how analytics applications can go beyond displaying numbers an
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated            
 
 This project demonstrates practical experience in:
 
@@ -126,15 +126,15 @@ This project demonstrates practical experience in:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 AI-Sales-Dashboard/
 │
-├── app.py
+├── dash.py
 │
 ├── data/
-│   └── ai_dash_data.csv
+│   └── sales_data.csv
 │
 ├── utils/
 │   ├── __init__.py
@@ -144,11 +144,11 @@ AI-Sales-Dashboard/
 └── README.md
 ```
 
-### `app.py`
+### `dash.py`
 
 Contains the main Streamlit application, filters, tables, visualization, and dashboard interface.
 
-### `data/ai_dash_data.csv`
+### `data/sales_data.csv`
 
 Contains the sales dataset used by the dashboard.
 
@@ -158,7 +158,7 @@ Contains the custom `generate_insight()` function responsible for generating ana
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### 1. Clone the repository
 
@@ -187,14 +187,14 @@ pip install streamlit pandas plotly
 ### 4. Run the Streamlit application
 
 ```bash
-streamlit run app.py
+streamlit run dash.py
 ```
 
 The application will open in your browser.
 
 ---
 
-## 👥 Who Can Use This Dashboard?
+##  Who Can Use This Dashboard?
 
 This solution can be useful for:
 
@@ -210,7 +210,7 @@ This solution can be useful for:
 
 ---
 
-## 📌 Business Value
+##  Business Value
 
 The dashboard demonstrates how organizations can move away from static spreadsheets toward interactive analytics applications.
 
@@ -225,7 +225,7 @@ With a solution like this, stakeholders can:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Future versions of the dashboard could include:
 
@@ -246,7 +246,7 @@ Future versions of the dashboard could include:
 
 ---
 
-## 📊 Project Goal
+## Project Goal
 
 The goal of this project was not simply to build a dashboard.
 
@@ -254,7 +254,7 @@ It was to demonstrate how **Python, Business Intelligence, Data Visualization, a
 
 ---
 
-## 👩🏽‍💻 Author
+## Author
 
 **Funmi Gbokoyi**
 
