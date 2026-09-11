@@ -1,6 +1,6 @@
 # 💰📊 AI Sales Dashboard
 
-## Turning Sales Data into Clear, Actionable Business Insights
+## Turning Sales Data into Clear, Actionable Business Insights with Python and Streamlit
 
 The **AI Sales Dashboard** is an interactive sales analytics application built with **Python and Streamlit** to help business stakeholders quickly understand sales performance across **regions, products, and sales statuses**.
 
